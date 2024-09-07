@@ -45,14 +45,17 @@ header{
     background-color: var(--cor0);
     color: #ffffff;
     text-align: center;
-    height: 130px;
-    padding: 20px;
+    height: 210px;
+    padding: 15px;
 }
 header > h1{
     color: #ffffff;
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
+    height: 50%;
+    display: inline-block;
+    padding: 15px;
 }
 
 header > p{
@@ -61,7 +64,11 @@ header > p{
     max-width: 600px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom: 7px;
     margin: auto;
+    height: 50%;
+    display: block;
+    padding: 5px;
 }
 nav{
     background-image: linear-gradient(to right, var(--cor0), var(--cor1), var(--cor1));
@@ -78,7 +85,7 @@ nav > a{
     padding: 5px;
     border-radius: 5px;
     font-weight: Bold;
-    margin-left: 24px;
+    margin-left: 1.7%;
     transition: 300ms;
 }
 nav > a:hover{
