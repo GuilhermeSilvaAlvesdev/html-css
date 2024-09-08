@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
 
-<a href="https://GuilhermeSilvaAlvesdev/html-css/site-tecnologia/032-desafioSite/index.html">Primeiro Site</a >
+<a href="https://guilhermesilvaalvesdev.github.io/html-css/site-tecnologia/032-desafioSite/index.html">Primeiro Site</a >
