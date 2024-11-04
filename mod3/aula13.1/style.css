@@ -1,0 +1,43 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.box-main{
+    width: 80%;
+    height: 160px;
+    background-color: rgb(222, 169, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(197, 72, 255);
+    margin: 10px;
+    border-radius: .5rem;
+}
+#box1{
+    background: url("https://i.pinimg.com/564x/c4/72/fa/c472fa8bb84f1598a90d63ba669c3e9e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box2{
+    background: url("https://i.pinimg.com/564x/35/79/17/357917c27de82a2dd5a8e521cae249e5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box3{
+    background: url("https://i.pinimg.com/564x/05/5f/26/055f260ede884e1a6b86d2eee7cff0de.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img16{
+    width: 80%;
+    height: 160px;
+    margin: 16px 2px 1;
+    background-color: #aaaaaa;
+    border-radius: 0px 10px 10px 0px;
+}

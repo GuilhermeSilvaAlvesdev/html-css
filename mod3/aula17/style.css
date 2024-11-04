@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.tela-principal{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: #7f7f7f;
+    background: url("assents/img1.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+    
+    background-size: cover;
+    background: #7f7f7f url("assents/img1.jpg") left center no-repeat fixed;
+}
+.box{
+    /*max-width é mt bom quando se trata de dimesionamento de tela, ela permite que quando atinga um certo grau, mantenha se fixa.*/
+    max-width: 900px;
+    min-width: 400px;
+    height: 180vh;
+    margin-top: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.box > h1{
+    margin: 25px 2px 40px 2px;
+}
+p{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+}
