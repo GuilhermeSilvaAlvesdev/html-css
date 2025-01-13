@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #212121;
+}
+.container{
+    width: 21.45rem;
+    height: 21.45rem;
+    border: 1px solid red;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: .7rem 1.2rem;
+    position: relative;
+    display: inline-block;
+    color: #ff4b1f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border: none;
+    font-weight: 800;
+    background: #b8b8b8;
+}
+/* 
+    content: ""; não faço a minima ideia para o que serve;
+    position: absolute; tornar fixa a posição do objeto;
+    bottom: -2px; ou seja ele vai está abaixo do objeto;
+    left: 0; ele ocupará a posição zero do elemento;
+    transforme: scaleX(0); ele tera uma escala zero no eixo X inicialmente;
+    transition: transform 0.3s ease; o transform terá .3s para fazer a transição;
+
+*/
+button::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #ff4b1f;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+button:hover{
+    color: #ff7f50;
+}
+/* o tamanho da escala 1 ele ocupa o eixo x inteiro do objeto */
+button:hover::before{
+    transform: scaleX(1);
+}
